@@ -1,0 +1,5 @@
+2024/08/28-19:34:41.794 bdb8 Recovering log #4
+2024/08/28-19:34:42.012 bdb8 Level-0 table #6: started
+2024/08/28-19:34:42.023 bdb8 Level-0 table #6: 474 bytes OK
+2024/08/28-19:34:42.095 bdb8 Delete type=3 #2
+2024/08/28-19:34:42.101 bdb8 Delete type=0 #4

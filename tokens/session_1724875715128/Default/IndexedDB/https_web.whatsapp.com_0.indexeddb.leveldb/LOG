@@ -1,0 +1,6 @@
+2024/08/28-20:09:05.391 d0b4 Creating DB /home/ubuntu/wpp_chatgpt/tokens/session_1724875715128/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2024/08/28-20:09:05.599 d0b4 Delete type=3 #1
+2024/08/28-20:09:09.809 d0bd Level-0 table #5: started
+2024/08/28-20:09:09.890 d0bd Level-0 table #5: 6978 bytes OK
+2024/08/28-20:09:09.893 d0bd Delete type=0 #3
+2024/08/28-20:09:09.911 d0b3 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

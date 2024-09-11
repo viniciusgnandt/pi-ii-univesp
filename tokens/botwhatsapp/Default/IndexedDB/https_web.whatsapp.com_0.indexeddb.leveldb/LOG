@@ -1,0 +1,11 @@
+2024/08/28-20:04:46.093 cd42 Recovering log #72
+2024/08/28-20:04:46.095 cd42 Level-0 table #75: started
+2024/08/28-20:04:46.104 cd42 Level-0 table #75: 13770 bytes OK
+2024/08/28-20:04:46.112 cd42 Delete type=0 #72
+2024/08/28-20:04:46.112 cd42 Delete type=3 #70
+2024/08/28-20:04:58.015 cd42 Compacting 1@0 + 1@1 files
+2024/08/28-20:04:58.303 cd42 Generated table #77@0: 21333 keys, 362220 bytes
+2024/08/28-20:04:58.304 cd42 Compacted 1@0 + 1@1 files => 362220 bytes
+2024/08/28-20:04:58.310 cd42 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/28-20:04:58.492 cd42 Delete type=2 #73
+2024/08/28-20:04:58.492 cd42 Delete type=2 #75

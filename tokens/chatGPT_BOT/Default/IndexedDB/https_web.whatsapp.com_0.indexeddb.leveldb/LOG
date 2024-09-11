@@ -1,0 +1,52 @@
+2024/08/28-19:35:57.606 bf3b Recovering log #56
+2024/08/28-19:35:58.003 bf3b Level-0 table #60: started
+2024/08/28-19:35:58.198 bf3b Level-0 table #60: 48417 bytes OK
+2024/08/28-19:35:58.297 bf3b Delete type=0 #56
+2024/08/28-19:35:58.297 bf3b Delete type=3 #30
+2024/08/28-19:35:58.298 bf3b Delete type=2 #55
+2024/08/28-19:35:59.405 bf43 Current memtable full; waiting...
+2024/08/28-19:35:59.406 bf42 Level-0 table #63: started
+2024/08/28-19:35:59.412 bf42 Level-0 table #63: 11714 bytes OK
+2024/08/28-19:35:59.596 bf42 Delete type=0 #61
+2024/08/28-19:35:59.596 bf42 Level-0 table #65: started
+2024/08/28-19:35:59.596 bf42 Level-0 table #65: 0 bytes OK
+2024/08/28-19:35:59.598 bf3a Current memtable full; waiting...
+2024/08/28-19:35:59.600 bf42 Delete type=0 #62
+2024/08/28-19:35:59.609 bf70 Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at '\x00#.\x02\x01\x0d\x00W\x00A\x00V\x00e\x00r\x00s\x00i\x00o\x00n\x00B\x00a\x00s\x00e' @ 15629 : 0
+2024/08/28-19:35:59.609 bf70 Compacting 2@0 + 1@1 files
+2024/08/28-19:35:59.789 bf42 Current memtable full; waiting...
+2024/08/28-19:35:59.888 bf70 Generated table #66@0: 715 keys, 25241 bytes
+2024/08/28-19:35:59.889 bf70 Compacted 2@0 + 1@1 files => 25241 bytes
+2024/08/28-19:35:59.895 bf70 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/08/28-19:35:59.895 bf70 Level-0 table #68: started
+2024/08/28-19:35:59.989 bf42 Current memtable full; waiting...
+2024/08/28-19:36:00.100 bf70 Level-0 table #68: 670 bytes OK
+2024/08/28-19:36:00.104 bf70 Delete type=0 #64
+2024/08/28-19:36:00.104 bf70 Manual compaction at level-0 from '\x00#.\x02\x01\x0d\x00W\x00A\x00V\x00e\x00r\x00s\x00i\x00o\x00n\x00B\x00a\x00s\x00e' @ 15629 : 0 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-19:36:00.104 bf71 Level-0 table #70: started
+2024/08/28-19:36:00.107 bf71 Level-0 table #70: 519 bytes OK
+2024/08/28-19:36:00.112 bf71 Delete type=0 #67
+2024/08/28-19:36:00.112 bf71 Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at '\x00 \x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 15750 : 0
+2024/08/28-19:36:00.112 bf71 Compacting 2@0 + 1@1 files
+2024/08/28-19:36:00.197 bf71 Generated table #71@0: 668 keys, 24015 bytes
+2024/08/28-19:36:00.197 bf71 Compacted 2@0 + 1@1 files => 24015 bytes
+2024/08/28-19:36:00.202 bf71 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/08/28-19:36:00.202 bf71 Delete type=2 #66
+2024/08/28-19:36:00.202 bf71 Delete type=2 #68
+2024/08/28-19:36:00.202 bf71 Delete type=2 #70
+2024/08/28-19:36:00.203 bf3b Manual compaction at level-0 from '\x00 \x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 15750 : 0 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-19:36:00.203 bf3b Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-19:36:00.205 bf3a Manual compaction at level-0 from '\x00$\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00%\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-19:36:00.395 bf3a Level-0 table #73: started
+2024/08/28-19:36:00.399 bf3a Level-0 table #73: 4847 bytes OK
+2024/08/28-19:36:00.402 bf3a Delete type=0 #69
+2024/08/28-19:36:00.402 bf3a Delete type=2 #60
+2024/08/28-19:36:00.403 bf3a Delete type=2 #58
+2024/08/28-19:36:00.403 bf3a Delete type=2 #63
+2024/08/28-19:36:00.404 bf3c Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x0a\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 16156 : 0
+2024/08/28-19:36:00.404 bf3c Compacting 1@0 + 1@1 files
+2024/08/28-19:36:00.409 bf3c Generated table #74@0: 304 keys, 13883 bytes
+2024/08/28-19:36:00.409 bf3c Compacted 1@0 + 1@1 files => 13883 bytes
+2024/08/28-19:36:00.411 bf3c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/08/28-19:36:00.490 bf3c Delete type=2 #73
+2024/08/28-19:36:00.491 bf3a Manual compaction at level-0 from '\x00\x15\x0a\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 16156 : 0 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)

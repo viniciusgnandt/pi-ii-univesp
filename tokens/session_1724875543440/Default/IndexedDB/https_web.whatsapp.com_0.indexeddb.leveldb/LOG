@@ -1,0 +1,102 @@
+2024/08/28-20:06:10.711 cef9 Creating DB /home/ubuntu/wpp_chatgpt/tokens/session_1724875543440/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2024/08/28-20:06:10.907 cef9 Delete type=3 #1
+2024/08/28-20:06:17.400 cef9 Level-0 table #5: started
+2024/08/28-20:06:17.514 cefb Current memtable full; waiting...
+2024/08/28-20:06:17.589 cef9 Level-0 table #5: 14211 bytes OK
+2024/08/28-20:06:17.797 cef9 Delete type=0 #3
+2024/08/28-20:06:17.797 cef9 Level-0 table #7: started
+2024/08/28-20:06:17.803 cef9 Level-0 table #7: 446 bytes OK
+2024/08/28-20:06:17.806 cef9 Delete type=0 #4
+2024/08/28-20:06:17.807 cef9 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:17.807 cf03 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:18.501 cefb Level-0 table #9: started
+2024/08/28-20:06:18.502 cf03 Current memtable full; waiting...
+2024/08/28-20:06:18.504 cefb Level-0 table #9: 516 bytes OK
+2024/08/28-20:06:18.508 cefb Delete type=0 #6
+2024/08/28-20:06:18.508 cefb Level-0 table #11: started
+2024/08/28-20:06:18.592 cf02 Current memtable full; waiting...
+2024/08/28-20:06:18.597 cefb Level-0 table #11: 443 bytes OK
+2024/08/28-20:06:18.603 cefb Delete type=0 #8
+2024/08/28-20:06:18.604 cf04 Level-0 table #13: started
+2024/08/28-20:06:18.607 cefb Current memtable full; waiting...
+2024/08/28-20:06:18.608 cf04 Level-0 table #13: 457 bytes OK
+2024/08/28-20:06:18.611 cf04 Delete type=0 #10
+2024/08/28-20:06:18.611 cf05 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 923 : 0
+2024/08/28-20:06:18.611 cf05 Compacting 3@0 + 1@1 files
+2024/08/28-20:06:18.695 cf04 Current memtable full; waiting...
+2024/08/28-20:06:18.696 cf05 Level-0 table #16: started
+2024/08/28-20:06:18.702 cf05 Level-0 table #16: 544 bytes OK
+2024/08/28-20:06:18.705 cf05 Delete type=0 #12
+2024/08/28-20:06:18.706 cf06 Current memtable full; waiting...
+2024/08/28-20:06:18.789 cf05 Generated table #14@0: 52 keys, 1021 bytes
+2024/08/28-20:06:18.789 cf05 Compacted 3@0 + 1@1 files => 1021 bytes
+2024/08/28-20:06:18.793 cf05 compacted to: files[ 1 1 1 0 0 0 0 ]
+2024/08/28-20:06:18.794 cf29 Level-0 table #18: started
+2024/08/28-20:06:18.795 cf06 Current memtable full; waiting...
+2024/08/28-20:06:18.798 cf29 Level-0 table #18: 273 bytes OK
+2024/08/28-20:06:18.800 cf29 Delete type=0 #15
+2024/08/28-20:06:18.802 cf05 Level-0 table #20: started
+2024/08/28-20:06:18.806 cf05 Level-0 table #20: 409 bytes OK
+2024/08/28-20:06:18.809 cf29 Current memtable full; waiting...
+2024/08/28-20:06:18.810 cf05 Delete type=0 #17
+2024/08/28-20:06:18.810 cf05 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 959 : 0
+2024/08/28-20:06:18.810 cf05 Compacting 3@0 + 1@1 files
+2024/08/28-20:06:18.894 cf05 Generated table #21@0: 87 keys, 1493 bytes
+2024/08/28-20:06:18.894 cf05 Compacted 3@0 + 1@1 files => 1493 bytes
+2024/08/28-20:06:18.898 cf05 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/28-20:06:18.899 cf2b Level-0 table #23: started
+2024/08/28-20:06:18.899 cf2a Current memtable full; waiting...
+2024/08/28-20:06:18.901 cf2b Level-0 table #23: 580 bytes OK
+2024/08/28-20:06:18.907 cf2b Delete type=0 #19
+2024/08/28-20:06:18.910 cf05 Level-0 table #25: started
+2024/08/28-20:06:18.999 cf05 Level-0 table #25: 599 bytes OK
+2024/08/28-20:06:19.002 cf05 Delete type=0 #22
+2024/08/28-20:06:19.005 cf05 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 923 : 0 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 995 : 0
+2024/08/28-20:06:19.005 cf05 Compacting 2@0 + 1@1 files
+2024/08/28-20:06:19.011 cf05 Generated table #26@0: 71 keys, 1446 bytes
+2024/08/28-20:06:19.011 cf05 Compacted 2@0 + 1@1 files => 1446 bytes
+2024/08/28-20:06:19.090 cf05 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/28-20:06:19.090 cf05 Delete type=2 #21
+2024/08/28-20:06:19.090 cf05 Delete type=2 #25
+2024/08/28-20:06:19.090 cf05 Delete type=2 #23
+2024/08/28-20:06:19.092 cef9 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 959 : 0 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.094 cef9 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.094 cef9 Manual compaction at level-1 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 1007 : 0
+2024/08/28-20:06:19.094 cef9 Compacting 1@1 + 1@2 files
+2024/08/28-20:06:19.102 cef9 Generated table #27@1: 257 keys, 6693 bytes
+2024/08/28-20:06:19.102 cef9 Compacted 1@1 + 1@2 files => 6693 bytes
+2024/08/28-20:06:19.105 cef9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/28-20:06:19.106 cef9 Delete type=2 #26
+2024/08/28-20:06:19.108 cf2b Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.109 cef9 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.109 cef9 Manual compaction at level-1 from '\x00\x0c\x00\x00\x05' @ 1007 : 0 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.110 cf05 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.110 cf05 Manual compaction at level-1 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.111 cf02 Manual compaction at level-1 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.111 cf02 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.111 cefb Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.114 cefb Manual compaction at level-1 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.115 cf04 Manual compaction at level-1 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.192 cef9 Manual compaction at level-1 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.202 cf2a Manual compaction at level-1 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.202 cf29 Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 995 : 0 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.204 cef9 Manual compaction at level-1 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:19.994 cefb Level-0 table #29: started
+2024/08/28-20:06:20.136 cefb Level-0 table #29: 9048 bytes OK
+2024/08/28-20:06:20.151 cefb Delete type=2 #13
+2024/08/28-20:06:20.152 cefb Delete type=2 #18
+2024/08/28-20:06:20.152 cefb Delete type=2 #5
+2024/08/28-20:06:20.152 cefb Delete type=2 #7
+2024/08/28-20:06:20.152 cefb Delete type=2 #9
+2024/08/28-20:06:20.152 cefb Delete type=2 #16
+2024/08/28-20:06:20.152 cefb Delete type=2 #11
+2024/08/28-20:06:20.152 cefb Delete type=2 #20
+2024/08/28-20:06:20.152 cefb Delete type=0 #24
+2024/08/28-20:06:20.152 cefb Delete type=2 #14
+2024/08/28-20:06:20.154 cef9 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/28-20:06:41.001 cef9 Compacting 1@1 + 1@2 files
+2024/08/28-20:06:41.010 cef9 Generated table #30@1: 392 keys, 10265 bytes
+2024/08/28-20:06:41.010 cef9 Compacted 1@1 + 1@2 files => 10265 bytes
+2024/08/28-20:06:41.089 cef9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/28-20:06:41.089 cef9 Delete type=2 #27
+2024/08/28-20:06:41.089 cef9 Delete type=2 #29
