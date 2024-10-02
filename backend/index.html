@@ -1,33 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bot QR Code</title>
+  <title>QR Code para Conectar ao WhatsApp</title>
   <style>
-    body { font-family: Arial, sans-serif; }
-    .qr-container { text-align: center; margin-top: 50px; }
-    img { width: 300px; height: 300px; }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f5f5f5; /* Contraste adequado */
+      color: #333;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #1a73e8; /* Melhor contraste com o fundo */
+    }
+
+    #qrcode {
+      margin-top: 20px;
+    }
+
+    .loading {
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    #error {
+      color: #ff0000; /* Mensagens de erro com cor de contraste */
+    }
   </style>
 </head>
 <body>
-  <div class="qr-container">
-    <h1>Escaneie o QR Code para iniciar o bot</h1>
-    <img id="qrCode" src="" alt="QR Code">
+  <h1>Conecte seu WhatsApp ao Bot</h1>
+
+  <!-- Div de status com role e aria-live para acessibilidade -->
+  <div id="qrcode" role="status" aria-live="polite">
+    <!--img src="/home/ubuntu/wpp_chatgpt/a.png" alt="Imagem de uma engrenagem rodando, indicando que o QR code está sendo carregado." class="loading" width="100" height="100" /-->
+    <p>Carregando QR Code...</p>
   </div>
 
+  <div id="error"></div>
+
   <script>
-    // Faz uma requisição para pegar o QR Code em base64 e exibi-lo
-    fetch('/qr')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("qrCode").src = `data:image/png;base64,${data}`;
-      })
-      .catch(err => {
-        console.error('Erro ao carregar o QR Code:', err);
-      });
+    // Função para fornecer feedback sonoro quando o QR code for carregado
+    function speakMessage(message) {
+      const synth = window.speechSynthesis;
+      const utterance = new SpeechSynthesisUtterance(message);
+      synth.speak(utterance);
+    }
+
+    // Função para buscar o QR code do servidor
+    function fetchQrCode() {
+      fetch('/qr')
+        .then(response => response.text())
+        .then(base64Qr => {
+          if (base64Qr && base64Qr.startsWith('data:image')) {
+            const img = document.createElement('img');
+            img.src = base64Qr;
+            img.alt = 'QR code para conectar ao WhatsApp'; // Alt para o QR code
+            document.getElementById('qrcode').innerHTML = ''; // Limpa o conteúdo anterior
+            document.getElementById('qrcode').appendChild(img);
+            speakMessage('O QR code foi carregado com sucesso.');
+          } else {
+            // Continua tentando buscar o QR code se ele ainda não estiver disponível
+            setTimeout(fetchQrCode, 3000); // Tenta novamente em 3 segundos
+          }
+        })
+        .catch(error => {
+          document.getElementById('qrcode').innerHTML = 'Erro ao carregar o QR Code.';
+          document.getElementById('error').innerHTML = 'Houve um erro ao carregar o QR Code. Tente novamente mais tarde.';
+          speakMessage('Houve um erro ao carregar o QR code.');
+          console.error('Erro ao buscar o QR code:', error);
+        });
+    }
+
+    // Inicia a busca pelo QR code ao carregar a página
+    fetchQrCode();
   </script>
 </body>
 </html>
-
 

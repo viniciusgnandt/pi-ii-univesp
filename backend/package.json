@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "axios": "^1.7.5",
+    "express": "^4.19.2",
+    "node": "^22.7.0",
+    "socket.io": "^4.7.5",
+    "venom-bot": "^5.1.0"
+  },
+  "name": "wpp_chatgpt",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
